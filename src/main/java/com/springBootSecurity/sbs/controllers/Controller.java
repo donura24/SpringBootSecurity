@@ -1,11 +1,11 @@
-package com.springBootSecurity.sbs;
+package com.springBootSecurity.sbs.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
-@RequestMapping("/api/v1/greetings")
+@RequestMapping("api/v1/greetings")
 public class Controller {
     @GetMapping("/hello")
     public ResponseEntity<String> sayHello(){

@@ -13,11 +13,4 @@ public class SbsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbsApplication.class, args);
 	}
-	@Bean
-	public CommandLineRunner commandLineRunner(){
-		return args -> {
-
-		};
-	}
-
 }
