@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/v1/greetings")
-public class Controller {
+public class ControllerGreeting {
     @GetMapping("/hello")
     public ResponseEntity<String> sayHello(){
         return ResponseEntity.ok("Hello form the API!");
