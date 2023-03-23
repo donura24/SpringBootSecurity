@@ -4,6 +4,7 @@ import com.springBootSecurity.sbs.config.JwtUtils;
 import com.springBootSecurity.sbs.dao.UserDao;
 import com.springBootSecurity.sbs.dto.AuthenticationRequest;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
